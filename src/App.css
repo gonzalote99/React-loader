@@ -1,0 +1,71 @@
+/**
+ * Copyright (c) Amur 2020
+ * 
+ * React-js-loader by Amur
+ * https://github.com/AmurKhoyetsyan/react-js-loader
+ * 
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+ * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.App {
+ width: 100%;
+ min-height: 100vh;
+ background-color: #202c39;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.App .content {
+  width: 600px;
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zoom-out {
+  -webkit-transform: scale(.6);
+  transform: scale(.6);
+}
+
+.App .row {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.App .row > .item {
+ width: 150px;
+ height: 150px;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ justify-content: center;
+ align-items: center;
+}

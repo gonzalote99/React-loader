@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App .parent-color {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.App .parent-color .color {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--bg);
+  border-radius: 50%;
+}
+
